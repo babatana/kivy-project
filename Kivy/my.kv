@@ -1,0 +1,20 @@
+<TheGridLayout>
+    name:name
+
+    GridLayout:
+        cols:1
+        size: root.width, root.height
+
+        GridLayout:
+            cols:2
+
+            Label:
+                text: "name"
+            TextInput:
+                id:name
+                multiline:False
+
+        Button:
+            text: "Submit"
+            font_size: 16
+            on_press: root.press()
