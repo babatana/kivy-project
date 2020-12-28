@@ -8,7 +8,7 @@ import json
 def main():
     print("MAIN")
     BoxApp().run()
-    get_data_result()
+    # get_data_result()
 
 
 if __name__ == '__main__':

@@ -1,4 +1,5 @@
 #:import utils kivy.utils
+#:import get_data_result Modules.scrapper.get_data_result
 # kivy design language
 <TheLayout>:
     BoxLayout:
@@ -21,4 +22,5 @@
             size_hint: (.125, .125)
             background_normal: ''
             background_color: (0,0.6,1,.5)
+            on_press: get_data_result()
             # background_color: utils.get_color_from_hex('#eeefff')
