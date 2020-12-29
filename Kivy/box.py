@@ -9,6 +9,10 @@ from kivy.lang import Builder
 # Builder.load_file('box.kv')
 
 
+def print_out():
+    print(f"You pressed dropdown button")
+
+
 # for testing out my buttons
 def open_csv():
     # checking if bccm_file.csv has been created

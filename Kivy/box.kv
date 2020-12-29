@@ -2,6 +2,8 @@
 #:import get_data_result Modules.scrapper.get_data_result
 #:import create_csv Modules.scrapper.create_csv
 #:import open_csv Kivy.box.open_csv
+#:import print_out Kivy.box.print_out
+
 # kivy design language
 <TheLayout>:
     BoxLayout:
@@ -12,12 +14,36 @@
         padding: 100
 
         Button:
+            id: btn
             text: "Search"
+            on_parent: dropdown.dismiss()
+            on_release: dropdown.open(self)
             pos_hint: {'center_x': .5}
             size_hint: (.125, .125)
             background_normal: ''
             background_color: (0,0.6,1,.5)
-            on_press: open_csv()
+            # on_press: open_csv()
+
+        DropDown:
+            id: dropdown
+            on_select: btn.text = '{}'.format(args[1])
+
+            Button:
+                text: 'First Item'
+                size_hint_y: None
+                height: 35
+                on_press: print_out()
+
+            Label:
+                text: 'Second Item'
+                size_hint_y: None
+                height: 35
+
+            Button:
+                text: 'Third Item'
+                size_hint_y: None
+                height: 35
+                on_release: dropdown.select('Third Item')
 
         Button:
             text: "Create CSV"
@@ -35,3 +61,8 @@
             background_normal: ''
             background_color: (0,0.6,1,.5)
             on_press: open_csv()
+
+
+
+
+
