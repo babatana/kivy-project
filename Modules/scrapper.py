@@ -14,10 +14,11 @@ def set_args() -> tuple:
 
     return the_date, the_indicator, the_country
 """
+# indices = ['Current Account Balance', ]
 
 dates = datetime.datetime(2019, 1, 1), datetime.datetime(2014, 1, 1)
 # multiple indicators should be a dictionary
-indicators = Africa_development_indicators.current_account_balance
+indicators = [Africa_development_indicators.total_population, Africa_development_indicators.gdp_per_capita_annual_growth]
 
 # multiple countries should be in a list, each element is the country's code
 countries = [Country.chad, Country.zimbabwe, Country.south_africa]
@@ -28,8 +29,28 @@ countries = [Country.chad, Country.zimbabwe, Country.south_africa]
 
 
 def get_data_result():
-    country_result_list = Get_wb_data(indicators, countries, dates)  # create an instance of get Get_wb_data
-    result_data = country_result_list.get_the_data
-    country_result_list.create_csv()
+    complete_data = [None]*100
+    i = 0
+    while i < len(indicators):
 
-    return result_data
+        country_result_list = Get_wb_data(indicators[i], countries, dates)  # create an instance of get Get_wb_data
+        result_data = country_result_list.get_the_data
+        complete_data += result_data
+        i += 1
+    country_result_list.create_csv()
+    print(complete_data)
+    return complete_data
+
+
+
+
+
+
+
+
+
+
+
+
+
+

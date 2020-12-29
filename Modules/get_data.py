@@ -54,6 +54,7 @@ class Get_wb_data:
                 bccmwriter.writerow(data_list[j])
                 j += 1
 
+            print(f"csv generated")
             """
             # bccm writer works with dictionaries
             bccmwriter.writerow({fieldnames[0]: 'Value', fieldnames[1]: 'Chain'})
