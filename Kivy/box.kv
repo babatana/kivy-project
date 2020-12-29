@@ -1,6 +1,7 @@
 #:import utils kivy.utils
 #:import get_data_result Modules.scrapper.get_data_result
-#:import print_out Kivy.box.print_out
+#:import create_csv Modules.scrapper.create_csv
+#:import open_csv Kivy.box.open_csv
 # kivy design language
 <TheLayout>:
     BoxLayout:
@@ -16,7 +17,7 @@
             size_hint: (.125, .125)
             background_normal: ''
             background_color: (0,0.6,1,.5)
-            on_press: print_out()
+            on_press: open_csv()
 
         Button:
             text: "Create CSV"
@@ -24,7 +25,7 @@
             size_hint: (.125, .125)
             background_normal: ''
             background_color: (0,0.6,1,.5)
-            on_press: get_data_result()
+            on_press: create_csv()
             # background_color: utils.get_color_from_hex('#eeefff')
 
         Button:
@@ -33,4 +34,4 @@
             size_hint: (.125, .125)
             background_normal: ''
             background_color: (0,0.6,1,.5)
-            on_press: print_out()
+            on_press: open_csv()

@@ -2,6 +2,7 @@ import io
 import os
 from kivy.app import App
 from kivy.uix.widget import Widget
+from Modules.get_data import *
 from kivy.properties import ObjectProperty
 from kivy.lang import Builder
 
@@ -9,7 +10,7 @@ from kivy.lang import Builder
 
 
 # for testing out my buttons
-def print_out():
+def open_csv():
     # checking if bccm_file.csv has been created
     fd = open("bccm_file.csv", "r")
     check = isinstance(fd, io.IOBase)

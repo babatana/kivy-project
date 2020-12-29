@@ -1,4 +1,3 @@
-from Modules.scrapper import get_data_result
 from Kivy.box import *
 import os
 import csv
