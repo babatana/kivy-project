@@ -1,37 +1,19 @@
 country,countryiso3code,indicator,date,value
-Chad,TCD,"Population, total",2019,15946876
-Chad,TCD,"Population, total",2018,15477751
-Chad,TCD,"Population, total",2017,15016773
-Chad,TCD,"Population, total",2016,14561666
-Chad,TCD,"Population, total",2015,14110975
-Chad,TCD,"Population, total",2014,13663559
-South Africa,ZAF,"Population, total",2019,58558270
-South Africa,ZAF,"Population, total",2018,57779622
-South Africa,ZAF,"Population, total",2017,57000451
-South Africa,ZAF,"Population, total",2016,56203654
-South Africa,ZAF,"Population, total",2015,55386367
-South Africa,ZAF,"Population, total",2014,54545991
-Zimbabwe,ZWE,"Population, total",2019,14645468
-Zimbabwe,ZWE,"Population, total",2018,14439018
-Zimbabwe,ZWE,"Population, total",2017,14236745
-Zimbabwe,ZWE,"Population, total",2016,14030390
-Zimbabwe,ZWE,"Population, total",2015,13814629
-Zimbabwe,ZWE,"Population, total",2014,13586681
-Chad,TCD,GDP per capita growth (annual %),2019,0.209857602815163
-Chad,TCD,GDP per capita growth (annual %),2018,-0.674995563522543
-Chad,TCD,GDP per capita growth (annual %),2017,-5.92877662311096
-Chad,TCD,GDP per capita growth (annual %),2016,-9.15696640169109
-Chad,TCD,GDP per capita growth (annual %),2015,-0.490774024279588
-Chad,TCD,GDP per capita growth (annual %),2014,3.43301682181132
-South Africa,ZAF,GDP per capita growth (annual %),2019,-1.17914333260929
-South Africa,ZAF,GDP per capita growth (annual %),2018,-0.572080196712221
-South Africa,ZAF,GDP per capita growth (annual %),2017,-0.00313895407710163
-South Africa,ZAF,GDP per capita growth (annual %),2016,-1.06086820384171
-South Africa,ZAF,GDP per capita growth (annual %),2015,-0.341677246440881
-South Africa,ZAF,GDP per capita growth (annual %),2014,0.247278816490251
-Zimbabwe,ZWE,GDP per capita growth (annual %),2019,-9.39546955217521
-Zimbabwe,ZWE,GDP per capita growth (annual %),2018,3.36113794924368
-Zimbabwe,ZWE,GDP per capita growth (annual %),2017,3.18639907529273
-Zimbabwe,ZWE,GDP per capita growth (annual %),2016,-0.793566445828347
-Zimbabwe,ZWE,GDP per capita growth (annual %),2015,0.100456019611102
-Zimbabwe,ZWE,GDP per capita growth (annual %),2014,0.596198048811488
+Chad,TCD,Current account balance (% of GDP),2019,
+Chad,TCD,Current account balance (% of GDP),2018,
+Chad,TCD,Current account balance (% of GDP),2017,
+Chad,TCD,Current account balance (% of GDP),2016,
+Chad,TCD,Current account balance (% of GDP),2015,
+Chad,TCD,Current account balance (% of GDP),2014,
+South Africa,ZAF,Current account balance (% of GDP),2019,-3.03524634313011
+South Africa,ZAF,Current account balance (% of GDP),2018,-3.63411283247239
+South Africa,ZAF,Current account balance (% of GDP),2017,-2.54979944985608
+South Africa,ZAF,Current account balance (% of GDP),2016,-2.81868670973016
+South Africa,ZAF,Current account balance (% of GDP),2015,-4.58655810065503
+South Africa,ZAF,Current account balance (% of GDP),2014,-5.07945095510114
+Zimbabwe,ZWE,Current account balance (% of GDP),2019,
+Zimbabwe,ZWE,Current account balance (% of GDP),2018,
+Zimbabwe,ZWE,Current account balance (% of GDP),2017,-1.39654413355409
+Zimbabwe,ZWE,Current account balance (% of GDP),2016,-3.49397277499791
+Zimbabwe,ZWE,Current account balance (% of GDP),2015,-8.4077599616852
+Zimbabwe,ZWE,Current account balance (% of GDP),2014,-12.3371008945515
