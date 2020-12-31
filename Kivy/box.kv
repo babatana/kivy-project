@@ -37,99 +37,19 @@
                 on_press: gen_final_indicators(Africa_development_indicators.afro_dev_indicators["current_account_balance_GDP_percentage"])
 
             Button:
-                text: Africa_development_indicators.afro_dev_indicators["current_account_balance_GDP_percentage"]
+                text: "current_account_balance_GDP_percentage"
                 size_hint_y: None
                 height: 35
-                on_press: gen_final_indicators(Africa_development_indicators.afro_dev_indicators["current_account_balance_GDP_percentage"])
+                background_normal: ''
+                background_color: (1,1,1,.5)
+                on_press: gen_final_indicators( "BN.CAB.XOKA.GD.ZS ")
 
-            Button:
-                text: Africa_development_indicators.afro_dev_indicators["current_account_balance_GDP_percentage"]
-                size_hint_y: None
-                height: 35
-                on_press: gen_final_indicators(Africa_development_indicators.afro_dev_indicators["current_account_balance_GDP_percentage"])
-
-            Button:
-                text: Africa_development_indicators.afro_dev_indicators["current_account_balance_GDP_percentage"]
-                size_hint_y: None
-                height: 35
-                on_press: gen_final_indicators(Africa_development_indicators.afro_dev_indicators["current_account_balance_GDP_percentage"])
-
-            Button:
-                text: Africa_development_indicators.afro_dev_indicators["current_account_balance_GDP_percentage"]
-                size_hint_y: None
-                height: 35
-                on_press: gen_final_indicators(Africa_development_indicators.afro_dev_indicators["current_account_balance_GDP_percentage"])
-
-            Button:
-                text: Africa_development_indicators.afro_dev_indicators["current_account_balance_GDP_percentage"]
-                size_hint_y: None
-                height: 35
-                on_press: gen_final_indicators(Africa_development_indicators.afro_dev_indicators["current_account_balance_GDP_percentage"])
-
-            Button:
-                text: Africa_development_indicators.afro_dev_indicators["current_account_balance_GDP_percentage"]
-                size_hint_y: None
-                height: 35
-                on_press: gen_final_indicators(Africa_development_indicators.afro_dev_indicators["current_account_balance_GDP_percentage"])
-
-            Button:
-                text: Africa_development_indicators.afro_dev_indicators["current_account_balance_GDP_percentage"]
-                size_hint_y: None
-                height: 35
-                on_press: gen_final_indicators(Africa_development_indicators.afro_dev_indicators["current_account_balance_GDP_percentage"])
-
-            Button:
-                text: Africa_development_indicators.afro_dev_indicators["current_account_balance_GDP_percentage"]
-                size_hint_y: None
-                height: 35
-                on_press: gen_final_indicators(Africa_development_indicators.afro_dev_indicators["current_account_balance_GDP_percentage"])
-
-            Button:
-                text: Africa_development_indicators.afro_dev_indicators["current_account_balance_GDP_percentage"]
-                size_hint_y: None
-                height: 35
-                on_press: gen_final_indicators(Africa_development_indicators.afro_dev_indicators["current_account_balance_GDP_percentage"])
-
-            Button:
-                text: Africa_development_indicators.afro_dev_indicators["current_account_balance_GDP_percentage"]
-                size_hint_y: None
-                height: 35
-                on_press: gen_final_indicators(Africa_development_indicators.afro_dev_indicators["current_account_balance_GDP_percentage"])
-
-            Button:
-                text: Africa_development_indicators.afro_dev_indicators["current_account_balance_GDP_percentage"]
-                size_hint_y: None
-                height: 35
-                on_press: gen_final_indicators(Africa_development_indicators.afro_dev_indicators["current_account_balance_GDP_percentage"])
-
-            Button:
-                text: Africa_development_indicators.afro_dev_indicators["current_account_balance_GDP_percentage"]
-                size_hint_y: None
-                height: 35
-                on_press: gen_final_indicators(Africa_development_indicators.afro_dev_indicators["current_account_balance_GDP_percentage"])
-
-            Button:
-                text: Africa_development_indicators.afro_dev_indicators["current_account_balance_GDP_percentage"]
-                size_hint_y: None
-                height: 35
-                on_press: gen_final_indicators(Africa_development_indicators.afro_dev_indicators["current_account_balance_GDP_percentage"])
-
-            Button:
-                text: Africa_development_indicators.afro_dev_indicators["current_account_balance_GDP_percentage"]
-                size_hint_y: None
-                height: 35
-                on_press: gen_final_indicators(Africa_development_indicators.afro_dev_indicators["current_account_balance_GDP_percentage"])
-            
             Label:
                 text: 'Second Item'
                 size_hint_y: None
                 height: 35
-
-            Button:
-                text: 'Third Item'
-                size_hint_y: None
-                height: 35
-                on_release: dropdown.select('Third Item')
+                markup: True
+                on_ref_press:print_out()
 
         Button:
             text: "Create CSV"

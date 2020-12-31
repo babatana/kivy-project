@@ -10,7 +10,7 @@ from kivy.lang import Builder
 
 
 def print_out():
-    print(f"You pressed dropdown button")
+    print(f"You pressed the label")
 
 
 # for testing out my buttons
